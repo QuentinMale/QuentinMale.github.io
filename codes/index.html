@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, codes</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+
+
+
+<!-- ############################################################################ -->
+      <h2>Electron Energy Distribution Function (EEDF) solver for plasma kinetics</h2>
+
+<p>
+Quentin is currently working on the implementation of a EEDF solver into <a href="https://cantera.org/">Cantera</a> following Refs [1,2].
+</p>
+
+<p>
+- <a href="https://github.com/Cantera/enhancements/issues/194">enhancement proposal</a><br>
+- <a href="https://github.com/QuentinMale/canteraBS/tree/canteraPlasma">github work-in-progress branch</a>
+</p>
+
+<p>
+[1] Gerjan Hagelaar et al. "Solving the Boltzmann equation to obtain electron transport coefficients and rate coefficients for fluid models", Plasma Sources Science and Technology, <a href="https://doi.org/10.1088/0963-0252/14/4/011">10.1088/0963-0252/14/4/011</a>
+<br>
+[2] Lionel Cheng et al. "Plasma assisted combustion of methane-air mixtures: Validation and reduction", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2022.111990">10.1016/j.combustflame.2022.111990</a>
+</p>
+
+
+
+<!-- ############################################################################ -->
+      <h2>Zero-dimensional Plasma Assisted Combustion (PAC) models</h2>
+
+<p>
+Python scripts to compute zero-dimensional constant volume reactors using models for Plasma Assisted Combustion (PAC). Scripts rely on <a href="https://cantera.org/">Cantera</a> for the computation of the thermochemistry. Models are based on the work of Maria Castela et al. [1] and Nicolas Barleon [2].
+</p>
+
+<p>
+- <a href="https://gitlab.com/male.quentin/pacmodels.git">gitlab project</a>
+</p>
+
+<p>
+[1] Maria Castela et al. "Modelling the impact of non-equilibrium discharges on reactive mixtures for simulations of plasma-assisted ignition in turbulent flows", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2016.01.009">10.1016/j.combustflame.2016.01.009</a>
+<br>
+[2] Nicolas Barleon "Detailed modeling and simulations of Nanosecond Repetitively Pulsed Discharges for Plasma-Assisted Combustion (PAC)", PhD Thesis, Universite de Toulouse, <a href="https://www.theses.fr/s214685">s214685</a>
+</p>
+
+
+
+
+
+<!-- ############################################################################ -->
+      <h2>Multi-zone pre-chamber ignition engine model with ignition predicion</h2>
+
+<p>
+A zero-dimensional pre-chamber ignition engine model to assess the influence of geometric or operating point changes on engine operation at a low computational cost [1]. It incorporates a jet ignition submodel based on Direct Numerical Simulation (DNS) results [2] to track misfires. The code relies on <a href="https://cantera.org/">Cantera</a> for the computation of the thermochemistry.
+</p>
+
+<p>
+- <a href="https://gitlab.com/male.quentin/pemip.git">gitlab project</a>
+</p>
+
+<p style="text-align:center;">
+<img src="../codes/engine_sketch.png" alt="" style="width:520px"> <br>
+Sketch of the Pre-chamber Engine Model with Ignition Prediction (PEMIP) multi-zone engine model for pre-chamber engines.
+</p>
+
+<p>
+[1] Quentin Malé et al. "Jet ignition prediction in a zero-dimensional pre-chamber engine model", International Journal of Engine Research, <a href="https://doi.org/10.1177/14680874211015002">10.1177/14680874211015002</a>
+<br>
+[2] Quentin Malé et al. "Direct numerical simulations and models for hot burnt gases jet ignition", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2020.09.017">10.1016/j.combustflame.2020.09.017</a>
+</p>
+
+
+
+
+
+<!-- ############################################################################ -->
+      <h2>Zero-dimensional turbulent jet ignition model</h2>
+
+<p>
+A zero-dimensional jet ignition model to predict the ignition outcome (success or failure) of fresh gases by a jet of hot burnt gases. This model has been derived for pre-chamber ignition engines but can be used for other applications including flameproof enclosures. The configuration is a generic case where a ducted jet of hot burnt gases enters a quiescent atmosphere filled with a premixed charge. The model views the ignition process as the evolution of an open well-stirred reactor convected into the atmosphere, where fresh gases and hot products mix at a certain rate and ignite or not. The code relies on <a href="https://cantera.org/">Cantera</a> for the computation of the thermochemistry.
+</p>
+
+<p>
+- <a href="https://gitlab.com/male.quentin/coreactor.git">gitlab project</a>
+</p>
+
+<p style="text-align:center;">
+<img src="COR_illustration.png" alt="" style="width:500px"> <br>
+Sketch of the Convected Open Reactor (COR) model to predict the outcome of the ignition of an atmosphere by a jet of hot burnt gases.
+</p>
+
+<p>
+[1] Quentin Malé et al. "Direct numerical simulations and models for hot burnt gases jet ignition", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2020.09.017">10.1016/j.combustflame.2020.09.017</a>
+</p>
+
+
+
+
+
+    </div>
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>

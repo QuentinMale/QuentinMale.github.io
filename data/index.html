@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, data</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+
+
+<!-- ############################################################################ -->
+      <h2>Direct Numerical Simulation (DNS) database of lean hydrogen premixed turbulent flames in a slot burner configuration</h2>
+
+<p>
+This database is now available on Kaggle: <a href="https://www.kaggle.com/datasets?search=Quentin+Mal%C3%A9">here</a>.<br>
+It will also be integrated into <a href="https://blastnet.github.io">BLASTNet</a>.
+</p>
+
+
+
+<!-- ############################################################################ -->
+      <h2>Analytically Reduced Chemistry (ARC) for hydrogen combustion at atmospheric pressure, including NOx chemistry</h2>
+
+<p>
+The chemical kinetics results from a complex reduction process from the detailed CRECK mechanism [1] with an appropriate NOx sub-mechanism from Ref. [2]. The final ARC mechanism comprises: 12 transported species (N2, H2, H, O2, O, H2O, OH, HO2, NO, NO2, N, NH), 4 species in Quasi-Steady State (QSS): (N2O, HONO, NNH, NH2), and 38 reactions. More details are given in <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1540748924000889-mmc1.zip">supplementary material</a> of Ref. [3].
+</p>
+
+<p>
+To use this mechanism: <a href="ARC_S12R38QSS4.cti">Cantera cti</a>, <a href="ARC_S12R38QSS4.f90">fortran kinetics</a>
+</p>
+
+<p>
+[1] Ghobad Bagheri et al. "Comprehensive kinetic study of combustion technologies for low environmental impact: MILD and OXY-fuel combustion of methane", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2019.10.014">10.1016/j.combustflame.2019.10.014</a> <br>
+[2] Yu Song et al. "The sensitizing effects of NO2 and NO on methane low temperature oxidation in a jet stirred reactor", Proceedings of the Combustion Institute, <a href="https://doi.org/10.1016/j.proci.2018.06.115">10.1016/j.proci.2018.06.115</a> <br>
+[3] Quentin Malé et al. "The LEAF concept operated with hydrogen: Flame topology and NOx formation", Proceedings of the Combustion Institute, 2024. <a href="https://doi.org/10.1016/j.proci.2024.105278">10.1016/j.proci.2024.105278</a></li>
+</p>
+
+
+
+<!-- ############################################################################ -->
+      <h2>Analytically Reduced Chemistry (ARC) for methane/hydrogen combustion in a mixture of fresh and burnt gases at atmospheric pressure</h2>
+
+<p>
+The chemical kinetics results from a complex reduction process from the detailed CRECK mechanism [1]. The final ARC mechanism comprises: 16 transported species (N2, H2, H, O2, O, H2O, OH, HO2, CO, CO2, CH4, CH3, CH2O, C2H6, C2H4, C2H2), 7 species in Quasi-Steady State (QSS): (H2O2, CH3O, HCO, C2H5, C2H3, HCCO, CH2), and 154 reactions. More details are given in <a href="https://ars.els-cdn.com/content/image/1-s2.0-S1540748922000190-mmc2.pdf">supplementary material</a> of Ref. [2].
+</p>
+
+<p>
+To use this mechanism: <a href="reducedS16R154QSS7_0.cti">Cantera cti</a>, <a href="reducedS16R154QSS7_0.f90">fortran kinetics</a>
+</p>
+
+<p>
+[1] Ghobad Bagheri et al. "Comprehensive kinetic study of combustion technologies for low environmental impact: MILD and OXY-fuel combustion of methane", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2019.10.014">10.1016/j.combustflame.2019.10.014</a> <br>
+[2] Quentin Malé et al. "Numerical study of plasma assisted combustion in a sequential combustor", Proceedings of the Combustion Institute, <a href="https://doi.org/10.1016/j.proci.2022.06.016">10.1016/j.proci.2022.06.016</a>
+</p>
+
+
+
+
+<!-- ############################################################################ -->
+      <h2>Analytically Reduced Chemistry (ARC) for methane/hydrogen combustion in a mixture of fresh and burnt gases at atmospheric pressure, including NOx chemistry</h2>
+
+<p>
+The chemical kinetics results from a complex reduction process from the detailed CRECK mechanism [1] with an appropriate NOx sub-mechanism from Ref. [2]. The final ARC mechanism comprises: 21 transported species (N2, H2, H, O2, O, H2O, OH, HO2, CO, CO2, CH4, CH3, CH3OH, CH2O, C2H4, NO, N2O, NO2, N, HCN, CH3NO2), 18 species in Quasi-Steady State (QSS): (H2O2, C, CH, CH3O2, CH3O, HCO, C2H6, C2H5, C2H3, HNO, NH, NNH, CN, NCN, NCO, H2CN, CH2, CH2(S)), and 198 reactions. More details are given in <a href="https://ars.els-cdn.com/content/image/1-s2.0-S0010218023005801-mmc1.pdf">supplementary material</a> of Ref. [3].
+</p>
+
+<p>
+To use this mechanism: <a href="reducedS16R154QSS7_0.cti">Cantera cti</a>, <a href="reducedS16R154QSS7_0.f90">fortran kinetics</a>
+</p>
+
+<p>
+[1] Ghobad Bagheri et al. "Comprehensive kinetic study of combustion technologies for low environmental impact: MILD and OXY-fuel combustion of methane", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2019.10.014">10.1016/j.combustflame.2019.10.014</a> <br>
+[2] Yu Song et al. "The sensitizing effects of NO2 and NO on methane low temperature oxidation in a jet stirred reactor", Proceedings of the Combustion Institute, <a href="https://doi.org/10.1016/j.proci.2018.06.115">10.1016/j.proci.2018.06.115</a> <br>
+[3] Quentin Malé et al. "Numerical study of nitrogen oxides chemistry during plasma assisted combustion in a sequential combustor", Combustion and Flame, <a href="https://doi.org/10.1016/j.combustflame.2023.113206">10.1016/j.combustflame.2023.113206</a>
+</p>
+
+
+
+
+
+    </div>
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>

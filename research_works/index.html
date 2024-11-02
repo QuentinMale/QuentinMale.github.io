@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, research works</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+
+<!-- ############################################################################ -->
+        <h2> Machine Learning for High-Fidelity Large Eddy Simulation</h2>
+
+<h7> - Hydrogen Combustion </h7> <br>
+
+Large Eddy Simulation (LES) plays a key role in the design of new combustion chambers for robust and safe combustion of carbon-free fuels such as H2. It is a very efficient method which consists of filtering and modeling small-scale flow physics that would otherwise be very computationally expensive to resolve. However, the high molecular diffusion of H2 challenges current subfilter-scale modeling approaches for lean premixed mixtures. This work establishes a framework for data-driven machine learning modeling of LES burning rates, enabling high-fidelity simulation of hydrogen combustion systems that are essential for achieving a low-carbon economy.
+
+The data-driven approach leverages a Convolutional Neural Network (CNN), trained to approximate filtered burning rates from emulated LES data. From emulated LES fields, a Convolutional Neural Network (CNN) has been trained to estimate the LES burning rates based on known LES scalar. Once trained, the model was found to approximate the burning rates on solutions never seen during training with high accuracy. In addition to this, the model was able to approximate burning rates on filter sizes and equivalence ratios other than those used for training.
+
+More details in this <a href="https://doi.org/10.48550/arXiv.2408.16709">journal publication</a>. The training database is available on Kaggle: <a href="https://www.kaggle.com/datasets?search=Quentin+Mal%C3%A9">here</a>.
+
+
+<p style="text-align:center;">
+<img src="MLH2_diagram.png" alt="" style="width:700px"> <br>
+Diagram of the strategy used to generate data and train the CNN. More details in this <a href="https://doi.org/10.48550/arXiv.2408.16709">journal publication</a>.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 25%; box-sizing: border-box;">
+      <img src="../logos/logo_SNSF.PNG" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 75%; box-sizing: border-box; padding: 20px;">
+      This research was funded in part by the Swiss National Science Foundation (SNSF) under grant agreement No. 219938.
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 30%; box-sizing: border-box;">
+      <img src="../logos/CSCS.jpg" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 70%; box-sizing: border-box; padding: 20px;">
+      This work was supported by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID s1262.
+    </div>
+  </div>
+
+<!-- ############################################################################ -->
+        <h2> Plasma-Assisted Combustion (PAC)</h2>
+
+<h7> - Thermoacoustic stabilization </h7> <br>
+
+Plasma-assisted combustion using Nanosecond Repetitively Pulsed Discharges (NRPDs) is an emerging technology that enhances the reactivity of fuel-air mixtures, offering significant improvements in operational and fuel flexibility—two crucial features for future sustainable gas turbines. Quentin studied the mecanisms of stabilization using massively parallel Large Eddy Simulation (LES) combined with an accurate description of the combustion chemistry and a state-of-the-art phenomenological model for the non-equilibrium plasma effects. He validated the simulation framework by comparison with experimental data including acoustic pressure and Heat Release Rate (HRR) signals in both stages of the sequential combustor, and OH-planar laser-induced fluorescence images in the second stage combustion chamber. Experimental work was carried out with the expertise of Sergey Shcherbanev. The animation bellow illustrates the simulation results with a stabilization of the thermoacoustically instable sequential combustor by the non-thermal plasma. Figure LES-PAC-FULLSEQCOMB shows the sequential combustor setup used for both experiments and simulation. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.
+
+<p style="text-align:center;">
+<video width="700px" autoplay>
+  <source src="../gallery/SM_PROCI_FULLSEQCOMB.mp4" type="video/mp4">
+</video> <br>
+Video LES-PAC-FULLSEQCOMB-STABILIZATION: Animation of line of sight averged Heat Release Rate (HRR) along the x-axis from LES snapshots (numerical simulation). The pressure in the first and second stages is plotted live at the top of the animation. Thermoacoustic instability with strong fluctuations in pressure and HRR can be observed, followed by stabilization when plasma discharges are activated in the sequential burner. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.
+</p>
+<p style="text-align:center;">
+<img src="visu_full_seq_comb.png" alt="" style="width:800px"> <br>
+Figure LES-PAC-FULLSEQCOMB: Diagram of the sequential combustor used for the experiments and numerical simulations. The temperature colored iso-surfaces of HRR depict the two flames. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.
+</p>
+
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/ERC.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No [820091] and grant agreement No [952181]).
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 30%; box-sizing: border-box;">
+      <img src="../logos/CSCS.jpg" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 70%; box-sizing: border-box; padding: 20px;">
+      This work was supported by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID s1220.
+    </div>
+  </div>
+
+
+
+<h7> - Combustion enhancement </h7> <br>
+
+Quentin studied PAC to widen the operating window of a gas turbine sequential combustor by extending the lean blow-off limit. He clarified the fundamental mechanisms of the effects of Nanosecond Repetitively Pulsed Discharges (NRPDs) on the sequential flame using Large Eddy Simluation (LES) with a detailed description of the relevant chemistry. Figure LES-PAC-SEQCOMB illustrates the LES computation of PAC inside the sequential combustor studied within the TORCH project at CAPS lab., ETH Zürich. 
+More details in this <a href="https://doi.org/10.1016/j.proci.2022.06.016">publication</a>.
+
+<p style="text-align:center;">
+<img src="visu_burner_bis.png" alt="" style="width:800px"> <br>
+Figure LES-PAC-SEQCOMB: Geometry of the second stage of the sequential combustor used for experiments and simulations at CAPS lab., ETH Zürich. A temperature-colored Heat Release Rate (HRR) iso-contour illustrates the production of ignition kernels by the Nanosecond Repetitively Pulsed Discharges (NRPDs). More details in this <a href="https://doi.org/10.1016/j.proci.2022.06.016">journal publication</a>.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/ERC.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No [820091]).
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 30%; box-sizing: border-box;">
+      <img src="../logos/CSCS.jpg" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 70%; box-sizing: border-box; padding: 20px;">
+      This work was supported by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID s1138.
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/PRACE.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      We acknowledge PRACE for awarding us access to MareNostrum at the Barcelona Supercomputing Center (BSC), Spain (project ID 2021250004).
+    </div>
+  </div>
+
+<h7> - Nitrogen oxides chemistry </h7> <br>
+
+Although many PAC experiments demonstrated combustion enhancement, several studies report an increase in NOx emissions. Quentin studied the kinetic pathways leading to NOx formation in the second stage of a sequential combustor assisted by Nanosecond Repetitively Pulsed Discharges (NRPDs). For this purpose, Large Eddy Simulation (LES) associated with an accurate description of the combustion/NOx chemistry and a phenomenological model of the plasma kinetics have been used. Figure LES-PAC-NOX shows the production rate of NO in the sequential burner used for this study.
+More details in this <a href="https://doi.org/10.1016/j.combustflame.2023.113206">publication</a>.
+
+<p style="text-align:center;">
+<img src="wNO.png" alt="" style="width:600px"> <br>
+Figure LES-PAC-NOX: Planar cut through the second stage of the sequential combustor used for experiments and simulations at CAPS lab., ETH Zürich. The planar cut is a snapshot during PAC and is colored by the NO chemical source term with two iso-contours of progress variable C. More details in this <a href="https://doi.org/10.1016/j.combustflame.2023.113206">journal publication</a>.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/ERC.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No [820091] and grant agreement No [952181]).
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 30%; box-sizing: border-box;">
+      <img src="../logos/CSCS.jpg" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 70%; box-sizing: border-box; padding: 20px;">
+      This work was supported by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID s1220.
+    </div>
+  </div>
+
+<!-- ############################################################################ -->
+<br>
+<hr>
+        <h2> Hydrogen Combustion </h2>
+
+<h7> - LEAF-concept combustor </h7> <br>
+
+The development of low NOx hydrogen burners is crucial for the sustainability target of the power/propulsion sector. The concept of LEan Azimuthal Flame (LEAF) has demonstrated promising results for low NOx kerosene/hydrogen combustion  by rapidly diluting the reactants with burnt gas and fresh oxidizer. However, there is a lack of understanding of the flame dynamics and the NOx formation routes for H2 LEAF. Therefore, Quentin led a joint experimental and numerical study of the LEAF combustor fueled with hydrogen. Experiments were based on OH-planar laser-induced fluorescence and exhaust gas analysis, performed with the expertise of Khushboo Pandey. Numerical results were based on massively parallel Large Eddy Simulation (LES) with an accurate description of the combustion and NOx chemical kinetics. This study explained the effects of the air distribution on the flame structure and the NOx formation. An optimum AR has been identified to minimize NOx emissions, attributed to the enhancement of the azimuthal whirling flow by the air injected from the bottom. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105278">journal publication</a>.
+
+
+<p style="text-align:center;">
+<img src="visu_LES_LEAF_copy.png" alt="" style="width:300px"> <br>
+Figure LES-H2-LEAF: Diagram of the LEAF combustor. Simulation results are used to illustrate the fuel/air injection and the flame. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105278">journal publication</a>.
+</p>
+
+
+
+
+<!-- ############################################################################ -->
+<br>
+<hr>
+        <h2> Hydrogen Enrichment </h2>
+
+<h7> - Sequential combustors </h7> <br>
+
+Hydrogen can be used to reduce the carbon content of conventional fuel in gas turbines. However, this changes the flame structure and may affect the combustion regime inside the combustor. There is therefore research work to be done in order to control the combustion of these new hydrocarbon/hydrogen blends. Figure LES-CH4H2-SEQCOMB shows the Heat Release Rate (HRR) inside the second stage of the sequential combustor studied at CAPS, ETH Zürich, for two cases: FM with neat methane as fuel, and FMH with a methane/hydrogen blend. For the case with hydrogen-enrichment, auto-ignition spots appear inside the mixing channel of the sequential combustor upstream of the deisgn flame position. The simulations have been performed by Matteo Impagnatiello (PhD Student), under the supervision of Quentin Malé and Nicolas Noiray.
+More details in this <a href="https://arxiv.org/abs/2209.07783">publication</a>.
+
+<p style="text-align:center;">
+<img src="h2-enriched-seqcomb.png" alt="" style="width:600px"> <br>
+Figure LES-CH4H2-SEQCOMB: Planar cuts colored by the Heat Release Rate (HRR) Q, for both methane (FM, top) and methane/hydrogen (FMH, bottom). Two different instants separated by 0.6 ms are represented, after a statistically steady state has been reached. The inset shows the Thickening Factor (TF) field.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/ERC.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No [820091]).
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 30%; box-sizing: border-box;">
+      <img src="../logos/CSCS.jpg" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 70%; box-sizing: border-box; padding: 20px;">
+      This work was supported by a grant from the Swiss National Supercomputing Centre (CSCS) under project ID s1138.
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/PRACE.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      We acknowledge PRACE for awarding us access to MareNostrum at the Barcelona Supercomputing Center (BSC), Spain (project ID 2021250004).
+    </div>
+  </div>
+
+<br>
+<h7> - Pre-chamber ignition engines </h7> <br>
+
+Hydrogen can be used to dope combustion in order to achieve proper combustion of ultra-lean hydrocarbon/air mixtures. Ultra-lean combustion is known to be very efficient and to produce low pollutant emissions. However, it suffers from low burning rates. Quentin studied the effect of hydrogen-enrichment to an ultra-lean propane/air mixture in a Pre-Chamber Ignition (PCI) engine during his PhD work.
+Figure LES-PCI-HRR-H2 illustrates the ignition and combustion sequence in the PCI engine studied. Hydrogen-enriched combustion is effectively faster than neat propane. However, the design of the pre-chamber has to be optimised to fully leverage the high reactivity of hydrogen to achieve ultra-lean combustion. Figure  LES-PCI-PRESS-H2 shows the mean pressure inside both pre- and main chambre of the engine.
+More details in Quentin's <a href="https://hal.archives-ouvertes.fr/tel-03103791">PhD Thesis</a>.
+
+<p style="text-align:center;">
+<img src="LES_C3H8vsH2.png" alt="" style="width:600px"> <br>
+Figure LES-PCI-HRR-H2: Plane cut intersecting the pre-chamber ducts by their axis and coloured by the normalized Heat Release Rate (HRR) with three isolines of temperature for both hydrogen (H2 inj., λ2.0) and propane (C3H8 inj., λ2.0) additional fuelling.
+</p>
+
+<br>
+<p style="text-align:center;">
+<img src="graph_C3H8vsH2.png" alt="" style="width:300px"> <br>
+Figure LES-PCI-PRESS-H2: Pressure inside pre- and main chambers for both hydrogen (H2 inj., λ2.0) and propane (C3H8 inj., λ2.0) additional fuelling alongside an unfired main chamber pressure trace.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/PRACE.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      We acknowledge PRACE for awarding us access to Irene at the ``Très Grand Centre de calcul du Commissariat à l’énergie atomique et aux énergies alternatives'' (TGCC), France (project ID 2019204881).
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 25%; box-sizing: border-box;">
+      <img src="../logos/GENCI.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 75%; box-sizing: border-box; padding: 20px;">
+      This work was granted access to the high performance computing resources of TGCC (``Très Grand Centre de calcul du Commissariat à l’énergie atomique et aux énergies alternatives'') under the allocation number A0072B10157 attributed by GENCI (``Grand Équipement National de Calcul Intensif'').
+    </div>
+  </div>
+
+
+
+
+<!-- ############################################################################ -->
+<br>
+<hr>
+        <h2> Turbulent Jet Ignition </h2>
+
+<h7> - General purpose </h7> <br>
+
+Turbulent Jet Ignition (TJI) is the process of ignition of a flammable atmosphere by a high speed jet of hot gas. The process of ignition of cold streams by jets of hot burnt gas is critical in many applications including flameproof enclosures, reciprocating engines, wave rotor engines or pulse detonation engines. The ability to predict ignition success or failure of the flammable mixture in which the hot burnt gas jets penetrate is critical for the design of the ducted jets. Quentin performed three-dimensional, kinetically detailed, Direct Numerical Simulations (DNSs) to investigate the ignition process of a cold lean premixed mixture at atmospheric conditions by a jet of hot burnt gas that may be cooled before injection. DNSs allowed a parametric study of the impact of the jet injection speed and temperature on the ignition process and provided data to build and test models for jet ignition. Figure DNS-TJI depicts the simulated ignition sequences. More details in this <a href="https://doi.org/10.1016/j.combustflame.2020.09.017">journal publication</a>.
+
+<p style="text-align:center;">
+<img src="DNS_TJI.png" alt="" style="width:600px"> <br>
+Figure DNS-TJI: Direct Numerical Simulation (DNS) of Turbulent Jet Ignition (TJI). Planar cut in the jet axis coloured by the Heat Release Rate (HRR) with three isolines
+of temperature. Jet injection bulk velocity = 150.0 m/s. Atmospheric conditions.
+</p>
+
+Based on Direct Numerical Simulation (DNS) results, Quentin developed a zero-dimensional Lagrangian model where a small element of the jet burnt gas mixes at a certain rate with the fresh gas while it potentially ignites to predict the outcome of a jet ignition sequence (success or failure). This model is a good candidate to access the ignition of a flammable atmosphere at a low computational cost. Figure COR illustrates how the model works. More details in this <a href="https://doi.org/10.1016/j.combustflame.2020.09.017">journal publication</a>.
+
+
+<br>
+<p style="text-align:center;">
+<img src="../codes/COR_illustration.png" alt="" style="width:500px"> <br>
+Figure COR: Sketch of the Convected Open Reactor (COR) model to predict the outcome of the ignition of an atmosphere by a jet of hot burnt gas. The code of the model is available in the <a href="../codes/">code section</a>.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 10%; box-sizing: border-box;">
+      <img src="../logos/PRACE.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 90%; box-sizing: border-box; padding: 20px;">
+      We acknowledge PRACE for awarding us access to Irene at the ``Très Grand Centre de calcul du Commissariat à l’énergie atomique et aux énergies alternatives'' (TGCC), France (project ID 2019204881).
+    </div>
+  </div>
+
+<br>
+<h7> - Pre-chamber ignition engines </h7> <br>
+
+Quentin studied Pre-Chamber Ignition (PCI) engines during his <a href="https://hal.archives-ouvertes.fr/tel-03103791">PhD work</a>. The PCI concept has demonstrated the capability to induce very high burning rates, enabling ultra-lean premixed mixtures to be burnt efficiently in Internal Combustion Engines (ICEs). This is achieved through the creation of multiple highly turbulent jets of hot burnt gas issuing into the main chamber of the engine. However, the design of the ducts connecting pre- and main chamber is very complex: small holes must be used in order to generate enough turbulence in the main chamber, but these small holes can also inhibit the ignition of the main chamber because of too high jet cooling and/or speed. This complex optimization problem motivated the PhD <a href="https://hal.archives-ouvertes.fr/tel-03103791">research work</a>. Figures LES-TJI-HRR and LES-TJI-AFBF shows the advantages of PCI engines over conventional Spark Ignition (SI) engines.
+
+<p style="text-align:center;">
+<img src="LES_SIvsTJI.png" alt="" style="width:600px"> <br>
+Figure LES-TJI-HRR Plane cut intersecting the pre-chamber ducts by their axis and coloured by the normalized Heat Release Rate (HRR) with three isolines of temperature for both Spark Ignition (SI) and Pre-Chamber Ignition (PCI) engines under the same operating conditions, λ1.5.
+</p>
+
+<br>
+<p style="text-align:center;">
+<img src="graph_SIvsTJI.png" alt="" style="width:500px"> <br>
+Figure LES-TJI-AFBF Flame surface inside the main chamber A^mc_f and global Burnt Fraction BF for both Spark Ignition (SI) and Pre-Chamber Ignition (PCI) engines under the same operating conditions, λ1.5.
+</p>
+
+  <div style="max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 25%; box-sizing: border-box;">
+      <img src="../logos/GENCI.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="float: right; width: 75%; box-sizing: border-box; padding: 20px;">
+      This work was granted access to the high performance computing resources of TGCC (``Très Grand Centre de calcul du Commissariat à l’énergie atomique et aux énergies alternatives'') under the ``Grand Challenge'' (early access program) allocation number gch0301 attributed by GENCI (``Grand Équipement National de Calcul Intensif'').
+    </div>
+  </div>
+
+
+
+Quentin developed a multi-chamber, multi-zone engine model to predict the ignition of a lean main chamber by a pre-chamber. The two chambers are connected by small cylindrical holes: the flame is ignited in the pre-chamber, hot gas propagate through the holes and ignite the main chamber through Turbulent Jet Ignition (TJI). The model original features are: (i) separate balance equations for the pre- and main chambers, (ii) a specific model for temperature and composition evolution in the holes and (iii) a DNS-based model to predict the ignition of the main chamber fresh gas by the burnt gas turbulent jets exiting the holes. Incorporating this DNS information into the engine model allows to predicts whether ignition will occur or not, an information which is not accessible otherwise using simple models. The resulting approach has been tested on multiple cases to predict ignition limits for very lean cases, effects of hydrogen injection into the pre-chamber and optimum size for the holes connecting the two chambers as a function of equivalence ratio. More details in this <a href="https://doi.org/10.1177/14680874211015002">journal publication</a>.
+
+<br>
+<p style="text-align:center;">
+<img src="../codes/engine_sketch.png" alt="" style="width:520px"> <br>
+Figure PEMIP: Sketch of the Pre-chamber Engine Model with Ignition Prediction (PEMIP) multi-zone engine model for pre-chamber engines. The code of the model is available in the <a href="../codes/">code section</a>.
+</p>
+
+
+
+
+
+    </div>
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, student projects</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+
+
+<p>
+Quentin Malé is currently working at <a href="https://caps.ethz.ch/">CAPS</a> lab., ETH Zürich. He is offering several student projects (BSc and MSc) related to his activities, they are listed bellow. Please read the "How to apply?" subsection if you are considering applying to one of the projects.
+</p>
+
+<p>
+Note: Quentin also welcome spontaneous application from motivated students.
+</p>
+
+<!-- ############################################################################ -->
+<!--
+      <h2> Non Equilibrium Plasma Combustion Kinetics in Vitiated Air and Fuel </h2>
+
+<p>
+Please, find the project description <a href="https://ethz.ch/content/dam/ethz/special-interest/mavt/energy-technology/caps-dam/documents/main.pdf">here</a>.
+</p>
+-->
+
+
+
+
+<!-- ############################################################################ -->
+      <h2> Machine Learning for the Modeling of Hydrogen Combustion </h2>
+
+<p>
+Please, find the project description <a href="https://ethz.ch/content/dam/ethz/special-interest/mavt/energy-technology/caps-dam/documents/thesis_ads/2024/deep_learning_H2-2.pdf">here</a>.
+</p>
+
+
+<!-- ############################################################################ -->
+      <h2> High-Fidelity Numerical Simulation for the Study of the Acoustic Response of a Hydrogen Flame </h2>
+
+<p>
+Please, find the project description <a href="https://ethz.ch/content/dam/ethz/special-interest/mavt/energy-technology/caps-dam/documents/thesis_ads/2024/Project_2024_QuentinMale_HighFidelity.pdf">here</a>.
+</p>
+
+
+
+
+<!-- ############################################################################ -->
+      <h2> Reaction Path Analysis for Combustion Kinetics </h2>
+
+<p>
+Please, find the project description <a href="https://ethz.ch/content/dam/ethz/special-interest/mavt/energy-technology/caps-dam/documents/thesis_ads/2024/Project_2024_QuentinMale_ReactionPathAnalysis.pdf">here</a>.
+</p>
+
+
+
+
+
+
+<!-- ############################################################################ -->
+      <h2> How to apply? </h2>
+
+<p>
+To apply, you can contact Quentin by <a href = "mailto: qumale@ethz.ch">email</a> expressing your motivation. Please, attach:
+<ul>
+<li> i) A concise curriculum vitae. </li>
+<li> ii) Transcript of Records/Academic Record. </li>
+</p>
+
+
+
+
+
+    </div>
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>

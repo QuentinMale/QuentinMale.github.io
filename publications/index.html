@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, publications</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+      <h2>Journal publications</h2>
+<ul>
+
+    <li><b>Hydrogen reaction rate modeling based on convolutional neural network for large eddy simulation</b>. Quentin Malé, Corentin J. Lapeyre and Nicolas Noiray. Submitted to Data-Centric Engineering, arXiv:2408.16709 [cs.CE], 2024.<a href="https://doi.org/10.48550/arXiv.2408.16709">10.48550/arXiv.2408.16709</a></li>
+
+    <li><b>Acoustic scattering of a sequential combustor controlled with non-equilibrium plasma: a numerical study</b>. Matteo Impagnatiello, Quentin Malé and Nicolas Noiray. Proceedings of the Combustion Institute, 2024.<a href="https://doi.org/10.1016/j.proci.2024.105389">10.1016/j.proci.2024.105389</a></li>
+
+    <li><b>Stabilization of a thermoacoustically unstable sequential combustor using non-equilibrium plasma: Large eddy simulation and experiments</b> Quentin Malé, Sergey Shcherbanev, Matteo Impagnatiello and Nicolas Noiray. Proceedings of the Combustion Institute, 2024. <a href="https://doi.org/10.1016/j.proci.2024.105277">10.1016/j.proci.2024.105277</a></li>
+
+    <li><b>The LEAF concept operated with hydrogen: Flame topology and NOx formation</b>. Quentin Malé, Khushboo Pandey and Nicolas Noiray. Proceedings of the Combustion Institute, 2024. <a href="https://doi.org/10.1016/j.proci.2024.105278">10.1016/j.proci.2024.105278</a></li>
+
+    <li><b>Numerical study of nitrogen oxides chemistry during plasma assisted combustion in a sequential combustor</b>. Quentin Malé, Sergey Shcherbanev, Bayu Dharmaputra and Nicolas Noiray. Combustion and Flame, 2024. <a href="https://doi.org/10.1016/j.combustflame.2023.113206">10.1016/j.combustflame.2023.113206</a></li>
+
+    <li><b>Numerical study of ignition and combustion of hydrogen-enriched methane in a sequential combustor</b>. Matteo Impagnatiello, Quentin Malé and Nicolas Noiray. Flow, Turbulence and Combustion, 2024. <a href="https://doi.org/10.1007/s10494-024-00540-8">10.1007/s10494-024-00540-8</a></li>
+
+    <li><b>Effect of plasma-flow coupling on the ignition enhancement with non-equilibrium plasma in a sequential combustor</b>. Sergey Shcherbanev, Quentin Malé, Bayu Dharmaputra, Roberto Solana-Pérez and Nicolas Noiray. Journal of Physics D: Applied Physics, 2022. <a href="https://doi.org/10.1088/1361-6463/ac82fa">10.1088/1361-6463/ac82fa</a></li>
+
+    <li><b>Numerical study of plasma assisted combustion in a sequential combustor</b>. Quentin Malé, Sergey Shcherbanev and Nicolas Noiray. Proceedings of the Combustion Institute, 2022. <a href="https://doi.org/10.1016/j.proci.2022.06.016">j.proci.2022.06.016</a></li>
+
+    <li><b>Jet ignition prediction in a zero-dimensional pre-chamber engine model</b>. Quentin Malé, Olivier Vermorel, Frédéric Ravet and Thierry Poinsot. International Journal of Engine Research, 2022. <a href="https://doi.org/10.1177/14680874211015002">10.1177/14680874211015002</a></li>
+
+    <li><b>Direct numerical simulations and models for hot burnt gases jet ignition</b>. Quentin Malé, Olivier Vermorel, Frédéric Ravet and Thierry Poinsot. Combustion and Flame, 2021. <a href="https://doi.org/10.1016/j.combustflame.2020.09.017">10.1016/j.combustflame.2020.09.017</a></li>
+
+    <li><b>Deflagration to detonation transition in fast flames and tracking with chemical explosive mode analysis</b>. Thomas Jaravel, Omar Dounia, Quentin Malé and Olivier Vermorel. Proceedings of the Combustion Institute, 2021. <a href="https://doi.org/10.1016/j.proci.2020.09.020">10.1016/j.proci.2020.09.020</a></li>
+
+    <li><b>Large Eddy Simulation of Pre-Chamber Ignition in an Internal Combustion Engine</b>. Quentin Malé, Gabriel Staffelbach, Olivier Vermorel, Antony Misdariis, Frédéric Ravet and Thierry Poinsot. Flow, Turbulence and Combustion, 2019. <a href="https://doi.org/10.1007/s10494-019-00026-y">10.1007/s10494-019-00026-y</a></li>
+
+    <li><b>On the Combination of Large Eddy Simulation and Phenomenological Soot Modeling to Calculate the Smoke Index From Aero-Engines Over a Large Range of Operating Conditions</b>. Jean Lamouroux, Stéphane Richard, Quentin Malé, Gabriel Staffelbach, Antoine Dauptin and Antony Misdariis. Journal of Engineering for Gas Turbines and Power, 2018. <a href="https://doi.org/10.1115/1.4039940">10.1115/1.4039940</a></li>
+
+</ul>
+
+      <h2>PhD thesis manuscript</h2>
+<ul>
+    <li><b>Numerical investigation of pre-chamber ignition in internal combustion engines</b>. Quentin Malé. Université de Toulouse, 2020. <a href="https://hal.archives-ouvertes.fr/tel-03103791">tel-03103791</a></li>
+</ul>
+
+    </div>
+
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+/** BASIC */
+
+html {
+    font-size: 62.5%;    
+}
+
+body {
+    margin: 30px 0px 30px 0px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size:1.3em;
+    background-color: #FFFFFF;
+    /*background-color: #000000;*/
+}
+
+h1 {
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    /* text-transform: lowercase; */
+}
+h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #000000;
+    /* text-transform: lowercase; */
+    letter-spacing: -1px;
+}
+
+h7 {
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #000000;
+}
+
+ul {
+    margin-left: 15px;
+    padding-left: 0px;
+    list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+ margin-bottom: 0px;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/** HEADER */
+
+#header {
+    width: 800px;
+    height: 80px;
+    margin: 0px auto;
+    background: #F0F0F0; no-repeat left top;
+}
+
+#header h1 {
+    float: left;
+    margin: 0px;
+    padding: 35px 0px 0px 20px;
+}
+
+#header h2 {
+    float: right;
+    margin: 0px;
+    padding: 43px 10px 0px 0px;
+    background: no-repeat right top;
+}
+
+/** MENU */
+
+#menu {
+    width: 800px;
+    height: 30px;
+    margin: 0px auto;
+    /* background: url(images/img03.gif) repeat-x left top; */
+    background: #BEBEBE; no-repeat left top;
+    /*background: #000000; no-repeat left top; */
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    display: block;
+    float: left;
+    padding: 10px;
+    padding-left:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bold;
+    color: #000000;
+}
+
+#menu a:hover {
+    color: #000000;
+}
+
+/** CONTENT */
+
+#content {
+    width: 800px;
+    margin: 0px auto;
+    background: repeat-y left top;
+}
+
+#columnA {
+    padding: 20px;
+}
+
+
+#columnB h2 {
+    font-size: large;
+}
+
+/** FOOTER */
+
+#footer {
+    width: 800px;
+    margin: 0px auto;
+    background: #F0F0F0 no-repeat left bottom;
+}
+
+#footer p {
+    margin: 0px;
+    padding: 15px 20px;
+    background: no-repeat right bottom;
+    font-size: smaller;
+    color: #000000;
+}
+
+pre { font-size:1.1em;}
+
+/*
+.section{
+    justify-content: space-between;
+}
+.section img{
+    height: 250px;
+}
+.section h1{
+}
+.section p{
+}
+*/

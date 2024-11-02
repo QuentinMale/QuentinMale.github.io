@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Quentin Malé, student projects</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+function get_user_name() {
+    // This script finds the user name from the url and then replaces "IhrBenutzername" with the user name.
+    if (document.getElementsByTagName("pre")[0] && (document.getElementsByTagName("pre")[0]["className"].indexOf("username") == 0) )  {
+        path = window.location.pathname;
+        if (path.indexOf("/student/") == 0) {
+            user_name = path.substring(9);
+        } else {
+            user_name = path.substring(2);
+        }
+        user_name = user_name.substring(0,user_name.indexOf("/"));
+        user_name = user_name + "/";
+        
+        pre_user = document.getElementsByTagName("pre")[0].firstChild.nodeValue;
+        pre_user = pre_user.replace(/IhrBenutzername\//g, user_name);
+        document.getElementsByTagName("pre")[0].firstChild.nodeValue = pre_user;
+    }
+}
+</script>
+</head>
+<body onload="get_user_name()">
+<div id="header">
+    <h1>Quentin Malé</h1>
+    <h2><a href = "../main.pdf" style="font-size: 20px;">Download CV</a>&nbsp;&nbsp;&nbsp;<a href = "mailto: qumale@ethz.ch" style="font-size: 20px;">Send Email</a></h2>
+    <h2>&nbsp;</h2>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="../" onFocus="if(this.blur)this.blur()">Home</a></li>
+        <li><a href="../research_works/" onFocus="if(this.blur)this.blur()">Research works</a></li>
+        <li><a href="../publications/" onFocus="if(this.blur)this.blur()">Publications</a></li>
+        <li><a href="../codes/" onFocus="if(this.blur)this.blur()">Codes</a></li>
+        <li><a href="../data/" onFocus="if(this.blur)this.blur()">Data</a></li>
+        <li><a href="../teaching/" onFocus="if(this.blur)this.blur()">Teaching</a></li>
+        <li><a href="../student_projects/" onFocus="if(this.blur)this.blur()">Student projects</a></li>
+        <li><a href="../gallery/" onFocus="if(this.blur)this.blur()">Gallery</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div id="columnA"> 
+
+
+<p style="text-align:center;">
+<video width="700px" autoplay>
+  <source src="../gallery/SM_PROCI_FULLSEQCOMB.mp4" type="video/mp4">
+</video> <br>
+Animation of line of sight averged Heat Release Rate (HRR) along the x-axis from Large Eddy Simulation (LES) snapshots (numerical simulation). The pressure in the first and second stages is plotted live at the top of the animation. Thermoacoustic instability with strong fluctuations in pressure and HRR can be observed, followed by stabilization when plasma discharges are activated in the sequential burner. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.
+</p>
+
+<p style="text-align:center;">
+<table align="center">
+  <tr>
+     <td>
+        <img style="height: 320px" src="../research_works/visu_LES_LEAF_copy.png"/>
+         <br/> Visualization of a reactive flow in a LEAF-concept hydrogen burner. Large Eddy Simulation (LES) results. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105278">journal publication</a>
+     </td>
+     <td>
+        <img style="height: 320px" src="H2_DNS_SLOT_BURNER.png"/>
+         <br/> Direct Numerical Simulation (DNS) of a premixed hydrogen H2 flame in a slot burner configuration.
+     </td>
+  </tr>
+</table>
+</p>
+
+
+
+    </div>
+    <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<!--    <p>Designed by <a href="http://www.freecsstemplates.org" class="link1">Free CSS Templates</a></p> -->
+</div>
+</body>
+</html>
