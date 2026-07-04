@@ -21,3 +21,5 @@ My research develops novel **computational methods for multiphysics phenomena**,
 **July 2026** — Applications are open for the [YADIAS](https://yadias.uni.lu) doctoral fellowship. Interested applicants willing to work on an interdisciplinary project using machine learning and high-performance computing are welcome to reach out to discuss research projects.
 
 **June 2026** — I will be joining the University of Luxembourg, Department of Engineering, as an Assistant Professor starting January 2027. Prospective PhD students, postdocs and students are welcome to contact me, I will have several positions open.
+
+**November 2024** - I will be joining Harvard University, [CSElab](https://cse-lab.seas.harvard.edu), as a postdoctoral researcher starting January 2025.
