@@ -13,14 +13,14 @@ Plasma-assisted combustion using Nanosecond Repetitively Pulsed Discharges (NRPD
 The animation below illustrates the simulation results with a stabilization of the thermoacoustically unstable sequential combustor by the non-thermal plasma. Figure LES-PAC-FULLSEQCOMB shows the sequential combustor setup used for both experiments and simulation. More details in this [journal publication](https://doi.org/10.1016/j.proci.2024.105277).
 
 <p align="center">
-<video width="700px" controls autoplay muted loop>
+<video style="width: 700px; max-width: 100%; height: auto;" controls autoplay muted loop>
   <source src="/assets/images/gallery/SM_PROCI_FULLSEQCOMB.mp4" type="video/mp4">
 </video><br>
 <em>Animation of line-of-sight averaged Heat Release Rate (HRR) along the x-axis from LES snapshots. The pressure in the first and second stages is plotted live at the top of the animation. A thermoacoustic instability with strong fluctuations in pressure and HRR can be observed, followed by stabilization when plasma discharges are activated in the sequential burner. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.</em>
 </p>
 
 <p align="center">
-<img src="/assets/images/research/visu_full_seq_comb.png" alt="" style="width:800px"><br>
+<img src="/assets/images/research/visu_full_seq_comb.png" alt="" style="width:800px; max-width:100%; height:auto;"><br>
 <em>Figure LES-PAC-FULLSEQCOMB: Diagram of the sequential combustor used for the experiments and numerical simulations. The temperature-colored iso-surfaces of HRR depict the two flames. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.</em>
 </p>
 

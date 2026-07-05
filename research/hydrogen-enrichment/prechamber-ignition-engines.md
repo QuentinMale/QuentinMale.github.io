@@ -11,12 +11,12 @@ permalink: /research/hydrogen-enrichment/prechamber-ignition-engines/
 Hydrogen can be used to dope combustion in order to achieve proper combustion of ultra-lean hydrocarbon/air mixtures. Ultra-lean combustion is known to be very efficient and to produce low pollutant emissions. However, it suffers from low burning rates. The effect of hydrogen enrichment of an ultra-lean propane/air mixture in a Pre-Chamber Ignition (PCI) engine has been investigated. Figure LES-PCI-HRR-H2 illustrates the ignition and combustion sequence in the PCI engine studied. Hydrogen-enriched combustion is effectively faster than neat propane. However, the design of the pre-chamber has to be optimized to fully leverage the high reactivity of hydrogen to achieve ultra-lean combustion. Figure LES-PCI-PRESS-H2 shows the mean pressure inside both pre- and main chamber of the engine. More details in my [PhD thesis manuscript](https://hal.archives-ouvertes.fr/tel-03103791).
 
 <p align="center">
-<img src="/assets/images/research/LES_C3H8vsH2.png" alt="" style="width:600px"><br>
+<img src="/assets/images/research/LES_C3H8vsH2.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
 <em>Figure LES-PCI-HRR-H2: Plane cut intersecting the pre-chamber ducts by their axis and colored by the normalized Heat Release Rate (HRR) with three isolines of temperature for both hydrogen (H2 inj., λ2.0) and propane (C3H8 inj., λ2.0) additional fuelling.</em>
 </p>
 
 <p align="center">
-<img src="/assets/images/research/graph_C3H8vsH2.png" alt="" style="width:400px"><br>
+<img src="/assets/images/research/graph_C3H8vsH2.png" alt="" style="width:400px; max-width:100%; height:auto;"><br>
 <em>Figure LES-PCI-PRESS-H2: Pressure inside pre- and main chambers for both hydrogen (H2 inj., λ2.0) and propane (C3H8 inj., λ2.0) additional fuelling alongside an unfired main chamber pressure trace.</em>
 </p>
 

@@ -9,12 +9,18 @@ _config.yml            Site settings, theme config, nav/search options
 Gemfile                 Ruby gems needed to preview the site locally
 
 index.md                Home page (uses layout: home)
+appointments.md         Appointments page
 publications.md         Publications page
 codes.md                Codes page
-data.md                 Data page
+data.md                 "Data" parent page (has_children: true)
+data/
+  dns-database.md       Child page
+  chemistry-database.md Child page, links to the mechanism files in assets/data/
 teaching.md             Teaching page
 student-projects.md     Student projects page
+open-positions.md       Open positions page
 gallery.md              Gallery page
+acknowledgments.md      Acknowledgments page
 
 research/
   index.md              "Research" parent page (top-level nav item)

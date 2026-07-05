@@ -16,7 +16,7 @@ The data-driven approach leverages a Convolutional Neural Network (CNN), trained
 More details in this [journal publication](https://doi.org/10.1017/dce.2025.1). The training database is available on Kaggle via [BLASTNet](https://www.kaggle.com/organizations/blastnet).
 
 <p align="center">
-<img src="/assets/images/research/MLH2_diagram.png" alt="" style="width:700px"><br>
+<img src="/assets/images/research/MLH2_diagram.png" alt="" style="width:700px; max-width:100%; height:auto;"><br>
 <em>Figure CNN-H2: Diagram of the strategy used to generate data and train the CNN. More details in this <a href="https://doi.org/10.1017/dce.2025.1">journal publication</a>.</em>
 </p>
 

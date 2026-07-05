@@ -11,7 +11,7 @@ permalink: /research/hydrogen-enrichment/sequential-combustors/
 Hydrogen can be used to reduce the carbon content of conventional fuel in gas turbines. However, this changes the flame structure and may affect the combustion regime inside the combustor. There is therefore research work to be done to control the combustion of these new hydrocarbon/hydrogen blends. Figure LES-CH4H2-SEQCOMB shows the Heat Release Rate (HRR) inside the second stage of the sequential combustor studied at the CAPS lab., ETH Zürich, for two cases: FM with neat methane as fuel, and FMH with a methane/hydrogen blend. For the case with hydrogen enrichment, auto-ignition spots appear inside the mixing channel of the sequential combustor upstream of the design flame position. More details in this [publication](https://arxiv.org/abs/2209.07783).
 
 <p align="center">
-<img src="/assets/images/research/h2-enriched-seqcomb.png" alt="" style="width:600px"><br>
+<img src="/assets/images/research/h2-enriched-seqcomb.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
 <em>Figure LES-CH4H2-SEQCOMB: Planar cuts colored by the Heat Release Rate (HRR) Q, for both methane (FM, top) and methane/hydrogen (FMH, bottom). Two different instants separated by 0.6 ms are represented, after a statistically steady state has been reached. The inset shows the Thickening Factor (TF) field.</em>
 </p>
 

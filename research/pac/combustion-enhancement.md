@@ -11,7 +11,7 @@ permalink: /research/pac/combustion-enhancement/
 PAC has been studied to widen the operating window of a gas turbine sequential combustor by extending the lean blow-off limit. The fundamental mechanisms of the effects of Nanosecond Repetitively Pulsed Discharges (NRPDs) on the sequential flame have been clarified using Large Eddy Simulation (LES) with a detailed description of the relevant chemistry. Figure LES-PAC-SEQCOMB illustrates the LES computation of PAC inside the sequential combustor studied within the ERC TORCH project at the CAPS lab., ETH Zürich. More details in this [publication](https://doi.org/10.1016/j.proci.2022.06.016).
 
 <p align="center">
-<img src="/assets/images/research/visu_burner_bis.png" alt="" style="width:800px"><br>
+<img src="/assets/images/research/visu_burner_bis.png" alt="" style="width:800px; max-width:100%; height:auto;"><br>
 <em>Figure LES-PAC-SEQCOMB: Geometry of the second stage of the sequential combustor used for experiments and simulations at the CAPS lab., ETH Zürich. A temperature-colored Heat Release Rate (HRR) iso-contour illustrates the production of ignition kernels by the Nanosecond Repetitively Pulsed Discharges (NRPDs). More details in this <a href="https://doi.org/10.1016/j.proci.2022.06.016">journal publication</a>.</em>
 </p>
 
