@@ -12,7 +12,7 @@ permalink: /
 
 My research develops novel **computational methods for multiphysics phenomena**, leveraging high-performance computing and machine learning to push the limits of simulation and modeling. It unites physics, machine learning and large-scale computation to advance **science and engineering in energy and complex flow systems**.
 
-[Send Email](mailto:qmale@seas.harvard.edu){: .btn .btn-primary .mr-2 }
+[Send Email](mailto:contact@quentinmale.com){: .btn .btn-primary .mr-2 }
 
 ---
 
