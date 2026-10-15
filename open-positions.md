@@ -20,7 +20,7 @@ The position is expected to be funded through the [YADIAS Doctoral Fellow Progra
 
 If you are interested please feel free to get in touch by [email](mailto:contact@quentinmale.com). I would be happy to discuss potential research directions and answer any questions.
 
-## Postdoctoral researcher positions — External funding opportunities
+## Postdoctoral researcher positions — external funding opportunities
 
 I welcome researchers seeking external funding to join my group at the University of Luxembourg. I will help develop proposals on shared interests, provide mentoring throughout the application and fellowship, and integrate successful candidates into the lab's research programme and collaborative environment.
 

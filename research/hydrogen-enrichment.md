@@ -1,12 +1,12 @@
 ---
-title: Hydrogen Enrichment
+title: Hydrogen enrichment
 parent: Research
 has_children: true
 nav_order: 4
 permalink: /research/hydrogen-enrichment/
 ---
 
-# Hydrogen Enrichment
+# Hydrogen enrichment
 
 Hydrogen can be used to reduce the carbon content of conventional fuel in gas turbines and internal combustion engines. However, this changes the flame structure and may affect the combustion regime. This work spans two subtopics:
 

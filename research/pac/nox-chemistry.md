@@ -1,6 +1,6 @@
 ---
 title: Nitrogen oxides chemistry
-parent: Plasma-Assisted Combustion (PAC)
+parent: Plasma-assisted combustion (PAC)
 grand_parent: Research
 nav_order: 3
 permalink: /research/pac/nox-chemistry/
@@ -8,7 +8,7 @@ permalink: /research/pac/nox-chemistry/
 
 # Nitrogen oxides chemistry
 
-Although many PAC experiments demonstrated combustion enhancement, several studies report an increase in NOx emissions. The kinetic pathways leading to NOx formation in the second stage of a sequential combustor assisted by Nanosecond Repetitively Pulsed Discharges (NRPDs) have been studied. For this purpose, Large Eddy Simulation (LES) associated with an accurate description of the combustion/NOx chemistry and a phenomenological model of the plasma kinetics has been used. Figure LES-PAC-NOX shows the production rate of NO in the sequential burner used for this study. More details in this [publication](https://doi.org/10.1016/j.combustflame.2023.113206).
+Although many PAC experiments demonstrated combustion enhancement, several studies report an increase in NOx emissions. The kinetic pathways leading to NOx formation in the second stage of a sequential combustor assisted by nanosecond repetitively pulsed discharges (NRPDs) have been studied. For this purpose, large eddy simulation (LES) associated with an accurate description of the combustion/NOx chemistry and a phenomenological model of the plasma kinetics has been used. Figure LES-PAC-NOX shows the production rate of NO in the sequential burner used for this study. More details in this [publication](https://doi.org/10.1016/j.combustflame.2023.113206).
 
 <p align="center">
 <img src="/assets/images/research/wNO.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>

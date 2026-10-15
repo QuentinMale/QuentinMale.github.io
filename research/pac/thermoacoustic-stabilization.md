@@ -1,6 +1,6 @@
 ---
 title: Thermoacoustic stabilization
-parent: Plasma-Assisted Combustion (PAC)
+parent: Plasma-assisted combustion (PAC)
 grand_parent: Research
 nav_order: 1
 permalink: /research/pac/thermoacoustic-stabilization/
@@ -8,7 +8,7 @@ permalink: /research/pac/thermoacoustic-stabilization/
 
 # Thermoacoustic stabilization
 
-Plasma-assisted combustion using Nanosecond Repetitively Pulsed Discharges (NRPDs) is an emerging technology that enhances the reactivity of fuel-air mixtures, offering significant improvements in operational and fuel flexibility — two crucial features for future sustainable gas turbines. The mechanisms of stabilization have been studied using massively parallel Large Eddy Simulation (LES) combined with an accurate description of the combustion chemistry and a state-of-the-art phenomenological model for the non-equilibrium plasma effects. The simulation framework has been validated by comparison with experimental data including acoustic pressure and Heat Release Rate (HRR) signals in both stages of the sequential combustor, and OH-planar laser-induced fluorescence images in the second stage combustion chamber.
+Plasma-assisted combustion using nanosecond repetitively pulsed discharges (NRPDs) is an emerging technology that enhances the reactivity of fuel-air mixtures, offering significant improvements in operational and fuel flexibility — two crucial features for future sustainable gas turbines. The mechanisms of stabilization have been studied using massively parallel large eddy simulation (LES) combined with an accurate description of the combustion chemistry and a state-of-the-art phenomenological model for the non-equilibrium plasma effects. The simulation framework has been validated by comparison with experimental data including acoustic pressure and heat release rate (HRR) signals in both stages of the sequential combustor, and OH-planar laser-induced fluorescence images in the second stage combustion chamber.
 
 The animation below illustrates the simulation results with a stabilization of the thermoacoustically unstable sequential combustor by the non-thermal plasma. Figure LES-PAC-FULLSEQCOMB shows the sequential combustor setup used for both experiments and simulation. More details in this [journal publication](https://doi.org/10.1016/j.proci.2024.105277).
 
@@ -16,7 +16,7 @@ The animation below illustrates the simulation results with a stabilization of t
 <video style="width: 700px; max-width: 100%; height: auto;" controls autoplay muted loop>
   <source src="/assets/images/gallery/SM_PROCI_FULLSEQCOMB.mp4" type="video/mp4">
 </video><br>
-<em>Animation of line-of-sight averaged Heat Release Rate (HRR) along the x-axis from LES snapshots. The pressure in the first and second stages is plotted live at the top of the animation. A thermoacoustic instability with strong fluctuations in pressure and HRR can be observed, followed by stabilization when plasma discharges are activated in the sequential burner. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.</em>
+<em>Animation of line-of-sight averaged heat release rate (HRR) along the x-axis from LES snapshots. The pressure in the first and second stages is plotted live at the top of the animation. A thermoacoustic instability with strong fluctuations in pressure and HRR can be observed, followed by stabilization when plasma discharges are activated in the sequential burner. More details in this <a href="https://doi.org/10.1016/j.proci.2024.105277">journal publication</a>.</em>
 </p>
 
 <p align="center">

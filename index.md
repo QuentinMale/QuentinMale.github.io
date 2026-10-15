@@ -26,7 +26,7 @@ My research develops novel **computational methods for multiphysics phenomena**,
 
 **November 2024** - I will be joining Harvard University, [CSElab](https://cse-lab.seas.harvard.edu), as a postdoctoral researcher starting January 2025.
 
-**2024** — We have been granted HPC access on Alps at CSCS to run large eddy simulation of the hydrogen operation of a LEan Azimuthal Flame (LEAF) combustor, aiming to characterize the flame structure and NOx production pathways to optimize hydrogen combustion for decarbonized power generation.
+**2024** — We have been granted HPC access on Alps at CSCS to run large eddy simulation of the hydrogen operation of a lean azimuthal flame (LEAF) combustor, aiming to characterize the flame structure and NOx production pathways to optimize hydrogen combustion for decarbonized power generation.
 
 ---
 

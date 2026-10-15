@@ -12,10 +12,10 @@ Teaching materials and hands-on exercises related to courses I have contributed 
 
 [GitHub repository](https://github.com/QuentinMale/simple_problems)
 
-## Models and Approximate Solutions for Open-Channel Flows: Application to a Free Sharp-Crested Weir
+## Models and approximate solutions for open-channel flows: application to a free sharp-crested weir
 
 [GitHub repository](https://github.com/QuentinMale/sharp-crested-weir), [slide deck](https://quentinmale.github.io/sharp-crested-weir)
 
-## Theory and Modeling of Reactive Flows
+## Theory and modeling of reactive flows
 
 Hands-on exercises related to the "Theory and Modeling of Reactive Flows" course: [handson-tmrf](https://gitlab.com/male.quentin/handson-tmrf)

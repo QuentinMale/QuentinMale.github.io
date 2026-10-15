@@ -24,7 +24,7 @@ acknowledgments.md      Acknowledgments page
 
 research/
   index.md              "Research" parent page (top-level nav item)
-  machine-learning.md    Child page (single topic, no further nesting)
+  data-driven-les.md     Child page on data-driven modeling for LES
   pac.md                 Child page, itself has children (has_children: true)
   pac/
     thermoacoustic-stabilization.md   Grandchild page
@@ -67,7 +67,7 @@ Example — a grandchild page:
 ```yaml
 ---
 title: Nitrogen oxides chemistry
-parent: Plasma-Assisted Combustion (PAC)
+parent: Plasma-assisted combustion (PAC)
 grand_parent: Research
 nav_order: 3
 permalink: /research/pac/nox-chemistry/
@@ -90,7 +90,7 @@ Every content page (except `index.md`, which sets `layout: home`) inherits `layo
 
 **A new subtopic** (a grandchild page, e.g. a new subsection under PAC):
 1. Create `research/pac/my-subtopic.md` (i.e. inside the parent topic's own folder).
-2. Front matter: `title`, `parent: Plasma-Assisted Combustion (PAC)`, `grand_parent: Research`, `nav_order`, `permalink: /research/pac/my-subtopic/`.
+2. Front matter: `title`, `parent: Plasma-assisted combustion (PAC)`, `grand_parent: Research`, `nav_order`, `permalink: /research/pac/my-subtopic/`.
 3. Add a link to it from `research/pac.md`'s bullet list so it's discoverable from the parent page's body too (the sidebar will pick it up automatically regardless).
 
 **Images, PDFs, or other files**: drop them in the relevant `assets/` subfolder (or create a new one) and reference them with an absolute path, e.g. `/assets/images/research/my-figure.png`.
