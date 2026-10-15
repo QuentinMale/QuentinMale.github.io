@@ -20,14 +20,14 @@ teaching.md             Teaching page
 student-projects.md     Student projects page
 open-positions.md       Open positions page
 gallery.md              Gallery page
-acknowledgments.md      Acknowledgments page
+acknowledgements.md      Acknowledgements page
 
 research/
   index.md              "Research" parent page (top-level nav item)
-  data-driven-les.md     Child page on data-driven modeling for LES
+  data-driven-les.md     Child page on data-driven modelling for LES
   pac.md                 Child page, itself has children (has_children: true)
   pac/
-    thermoacoustic-stabilization.md   Grandchild page
+    thermoacoustic-stabilisation.md   Grandchild page
     combustion-enhancement.md         Grandchild page
     nox-chemistry.md                  Grandchild page
   hydrogen-combustion.md
@@ -134,4 +134,4 @@ docker run --rm -it -v "$PWD":/srv/jekyll -v "$PWD/vendor/bundle":/usr/local/bun
 
 Commit and push to `main`. GitHub Pages rebuilds the site automatically (Settings → Pages should already be set to "Deploy from a branch: main / root" from before — no changes needed there).
 
-Do **not** commit `_site/`, `.jekyll-cache/`, `.bundle/`, or `Gemfile.lock` — these are local build artifacts and are already listed in `.gitignore`.
+Do **not** commit `_site/`, `.jekyll-cache/`, `.bundle/`, or `Gemfile.lock` — these are local build artefacts and are already listed in `.gitignore`.

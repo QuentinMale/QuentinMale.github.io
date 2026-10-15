@@ -12,7 +12,7 @@ Turbulent jet ignition (TJI) is the process of ignition of a flammable atmospher
 
 <p align="center">
 <img src="/assets/images/research/DNS_TJI.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
-<em>Figure DNS-TJI: Direct numerical simulation (DNS) of turbulent jet ignition (TJI). Planar cut in the jet axis colored by the heat release rate (HRR) with three isolines of temperature. Jet injection bulk velocity = 150.0 m/s. Atmospheric conditions.</em>
+<em>Figure DNS-TJI: Direct numerical simulation (DNS) of turbulent jet ignition (TJI). Planar cut in the jet axis coloured by the heat release rate (HRR) with three isolines of temperature. Jet injection bulk velocity = 150.0 m/s. Atmospheric conditions.</em>
 </p>
 
 Based on the DNS results, a zero-dimensional Lagrangian model has been developed where a small element of the jet burnt gas mixes at a certain rate with the fresh gas while it potentially ignites, in order to predict the outcome of a jet ignition sequence (success or failure). This model is a good candidate to assess the ignition of a flammable atmosphere at a low computational cost. Figure COR illustrates how the model works. More details in this [journal publication](https://doi.org/10.1016/j.combustflame.2020.09.017).

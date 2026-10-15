@@ -12,7 +12,7 @@ Although many PAC experiments demonstrated combustion enhancement, several studi
 
 <p align="center">
 <img src="/assets/images/research/wNO.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
-<em>Figure LES-PAC-NOX: Planar cut through the second stage of the sequential combustor used for experiments and simulations at the CAPS lab., ETH Zürich. The planar cut is a snapshot during PAC and is colored by the NO chemical source term with two iso-contours of progress variable C. More details in this <a href="https://doi.org/10.1016/j.combustflame.2023.113206">journal publication</a>.</em>
+<em>Figure LES-PAC-NOX: Planar cut through the second stage of the sequential combustor used for experiments and simulations at the CAPS lab., ETH Zürich. The planar cut is a snapshot during PAC and is coloured by the NO chemical source term with two iso-contours of progress variable C. More details in this <a href="https://doi.org/10.1016/j.combustflame.2023.113206">journal publication</a>.</em>
 </p>
 
 <div markdown="0" style="max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 20px;">

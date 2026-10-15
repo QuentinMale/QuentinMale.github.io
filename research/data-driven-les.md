@@ -1,17 +1,17 @@
 ---
-title: Data-driven modeling for large eddy simulation
+title: Data-driven modelling for large eddy simulation
 parent: Research
 nav_order: 1
 permalink: /research/data-driven-les/
 ---
 
-# Data-driven modeling for large eddy simulation
+# Data-driven modelling for large eddy simulation
 
 ## Impeller-driven turbulent flows
 
 ## Hydrogen combustion
 
-Large eddy simulation (LES) plays a key role in the design of new combustion chambers for robust and safe combustion of carbon-free fuels such as H2. It is a very efficient method which consists of filtering and modeling small-scale flow physics that would otherwise be very computationally expensive to resolve. However, the high molecular diffusion of H2 challenges subfilter-scale modeling for lean premixed mixtures. This work establishes a framework for data-driven machine learning modeling of LES burning rates, enabling high-fidelity simulation of hydrogen combustion systems that are essential for achieving a low-carbon economy.
+Large eddy simulation (LES) plays a key role in the design of new combustion chambers for robust and safe combustion of carbon-free fuels such as H2. It is a very efficient method which consists of filtering and modelling small-scale flow physics that would otherwise be very computationally expensive to resolve. However, the high molecular diffusion of H2 challenges subfilter-scale modelling for lean premixed mixtures. This work establishes a framework for data-driven machine learning modelling of LES burning rates, enabling high-fidelity simulation of hydrogen combustion systems that are essential for achieving a low-carbon economy.
 
 The data-driven approach leverages a convolutional neural network (CNN), trained to approximate filtered burning rates from emulated LES data. From emulated LES fields, a CNN has been trained to estimate the LES burning rates based on known LES scalars. Once trained, the model was found to approximate the burning rates on solutions never seen during training with high accuracy. In addition, the model was able to approximate burning rates on filter sizes and equivalence ratios other than those used for training.
 

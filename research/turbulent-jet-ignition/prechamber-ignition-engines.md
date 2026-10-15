@@ -8,11 +8,11 @@ permalink: /research/turbulent-jet-ignition/prechamber-ignition-engines/
 
 # Pre-chamber ignition engines
 
-The pre-chamber ignition (PCI) concept has demonstrated the capability to induce very high burning rates, enabling ultra-lean premixed mixtures to be burnt efficiently in internal combustion engines (ICEs). This is achieved through the creation of multiple highly turbulent jets of hot burnt gas issuing into the main chamber of the engine. However, the design of the ducts connecting pre- and main chamber is very complex: small holes must be used in order to generate enough turbulence in the main chamber, but these small holes can also inhibit ignition of the main chamber because of too high jet cooling and/or speed. This complex optimization problem motivated the research work. Figures LES-TJI-HRR and LES-TJI-AFBF show the advantages of PCI engines over conventional spark ignition (SI) engines. More details in my [PhD thesis manuscript](https://hal.archives-ouvertes.fr/tel-03103791).
+The pre-chamber ignition (PCI) concept has demonstrated the capability to induce very high burning rates, enabling ultra-lean premixed mixtures to be burnt efficiently in internal combustion engines (ICEs). This is achieved through the creation of multiple highly turbulent jets of hot burnt gas issuing into the main chamber of the engine. However, the design of the ducts connecting pre- and main chamber is very complex: small holes must be used in order to generate enough turbulence in the main chamber, but these small holes can also inhibit ignition of the main chamber because of too high jet cooling and/or speed. This complex optimisation problem motivated the research work. Figures LES-TJI-HRR and LES-TJI-AFBF show the advantages of PCI engines over conventional spark ignition (SI) engines. More details in my [PhD thesis manuscript](https://hal.archives-ouvertes.fr/tel-03103791).
 
 <p align="center">
 <img src="/assets/images/research/LES_SIvsTJI.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
-<em>Figure LES-TJI-HRR: Plane cut intersecting the pre-chamber ducts by their axis and colored by the normalized heat release rate (HRR) with three isolines of temperature for both spark ignition (SI) and pre-chamber ignition (PCI) engines under the same operating conditions, λ1.5.</em>
+<em>Figure LES-TJI-HRR: Plane cut intersecting the pre-chamber ducts by their axis and coloured by the normalised heat release rate (HRR) with three isolines of temperature for both spark ignition (SI) and pre-chamber ignition (PCI) engines under the same operating conditions, λ1.5.</em>
 </p>
 
 <p align="center">
@@ -32,6 +32,6 @@ A multi-chamber, multi-zone engine model has also been developed to predict the 
     <img src="/assets/images/logos/GENCI.png" style="width: 100%; height: auto; display: block;">
   </div>
   <div style="flex: 1 1 auto;">
-    This work was granted access to the high-performance computing resources of TGCC ("Très Grand Centre de calcul du Commissariat à l'énergie atomique et aux énergies alternatives") under the "Grand Challenge" (early access program) allocation number gch0301 attributed by GENCI ("Grand Équipement National de Calcul Intensif").
+    This work was granted access to the high-performance computing resources of TGCC ("Très Grand Centre de calcul du Commissariat à l'énergie atomique et aux énergies alternatives") under the "Grand Challenge" (early access programme) allocation number gch0301 attributed by GENCI ("Grand Équipement National de Calcul Intensif").
   </div>
 </div>

@@ -7,11 +7,11 @@ permalink: /research/
 
 # Research
 
-My research combines physics-based modeling, high-performance computing and machine learning to develop computational methods and investigate multiphysics phenomena in energy and complex flow systems. The sections below group my work by topic.
+My research combines physics-based modelling, high-performance computing and machine learning to develop computational methods and investigate multiphysics phenomena in energy and complex flow systems. The sections below group my work by topic.
 
-- [Data-driven modeling for large eddy simulation](/research/data-driven-les/)
+- [Data-driven modelling for large eddy simulation](/research/data-driven-les/)
 - [Plasma-assisted combustion](/research/pac/)
-  - [Thermoacoustic stabilization](/research/pac/thermoacoustic-stabilization/)
+  - [Thermoacoustic stabilisation](/research/pac/thermoacoustic-stabilisation/)
   - [Combustion enhancement](/research/pac/combustion-enhancement/)
   - [Nitrogen oxides chemistry](/research/pac/nox-chemistry/)
 - [Hydrogen combustion](/research/hydrogen-combustion/)

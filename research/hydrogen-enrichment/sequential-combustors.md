@@ -12,7 +12,7 @@ Hydrogen can be used to reduce the carbon content of conventional fuel in gas tu
 
 <p align="center">
 <img src="/assets/images/research/h2-enriched-seqcomb.png" alt="" style="width:600px; max-width:100%; height:auto;"><br>
-<em>Figure LES-CH4H2-SEQCOMB: Planar cuts colored by the heat release rate (HRR) Q, for both methane (FM, top) and methane/hydrogen (FMH, bottom). Two different instants separated by 0.6 ms are represented, after a statistically steady state has been reached. The inset shows the thickening factor (TF) field.</em>
+<em>Figure LES-CH4H2-SEQCOMB: Planar cuts coloured by the heat release rate (HRR) Q, for both methane (FM, top) and methane/hydrogen (FMH, bottom). Two different instants separated by 0.6 ms are represented, after a statistically steady state has been reached. The inset shows the thickening factor (TF) field.</em>
 </p>
 
 <div markdown="0" style="max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 20px;">

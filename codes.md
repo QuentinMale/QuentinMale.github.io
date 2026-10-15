@@ -6,7 +6,7 @@ permalink: /codes/
 
 # Codes
 
-## Data-driven modeling of subfilter-scale features in LES of hydrogen-air reacting flows
+## Data-driven modelling of subfilter-scale features in LES of hydrogen-air reacting flows
 
 Code for training and inference of a convolutional neural network (CNN) to approximate filtered burning rates of lean premixed hydrogen-air flames [1]. Available via GitLab [here](https://gitlab.com/male.quentin/cnn_h2flame).
 

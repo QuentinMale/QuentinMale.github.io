@@ -10,7 +10,7 @@ permalink: /
 
 ![Graphical abstract](/assets/images/home/graphical_abstract.png)
 
-My research develops novel **computational methods for multiphysics phenomena**, leveraging high-performance computing and machine learning to push the limits of simulation and modeling. It unites physics, machine learning and large-scale computation to advance **science and engineering in energy and complex flow systems**.
+My research develops novel **computational methods for multiphysics phenomena**, leveraging high-performance computing and machine learning to push the limits of simulation and modelling. It unites physics, machine learning and large-scale computation to advance **science and engineering in energy and complex flow systems**.
 
 [Send Email](mailto:contact@quentinmale.com){: .btn .btn-primary .mr-2 }
 
@@ -26,17 +26,17 @@ My research develops novel **computational methods for multiphysics phenomena**,
 
 **November 2024** - I will be joining Harvard University, [CSElab](https://cse-lab.seas.harvard.edu), as a postdoctoral researcher starting January 2025.
 
-**2024** — We have been granted HPC access on Alps at CSCS to run large eddy simulation of the hydrogen operation of a lean azimuthal flame (LEAF) combustor, aiming to characterize the flame structure and NOx production pathways to optimize hydrogen combustion for decarbonized power generation.
+**2024** — We have been granted HPC access on Alps at CSCS to run large eddy simulation of the hydrogen operation of a lean azimuthal flame (LEAF) combustor, aiming to characterise the flame structure and NOx production pathways to optimise hydrogen combustion for decarbonised power generation.
 
 ---
 
 **2023** — Our [JETHPAC](https://anr.fr/Project-ANR-23-CE05-0025) project, a joint SNSF/ANR PRCI with ETH Zürich and CERFACS, has been awarded funding. The project develops non-equilibrium plasma discharges to enable reliable ignition and combustion instability control in lean hydrogen-air mixtures, supporting the safe and efficient use of carbon-free hydrogen fuel.
 
-**2023** — We have been granted HPC access on Piz Daint at CSCS to run direct numerical simulations of plasma discharges in a sequential combustor, aiming to understand and optimize their effect on lean blow-off extension and thermoacoustic instability control.
+**2023** — We have been granted HPC access on Piz Daint at CSCS to run direct numerical simulations of plasma discharges in a sequential combustor, aiming to understand and optimise their effect on lean blow-off extension and thermoacoustic instability control.
 
 ---
 
-**2022** — We have been granted PRACE HPC access on Piz Daint at CSCS to perform large eddy simulation of plasma-assisted combustion in a sequential combustor, aiming to understand the effect of plasma on flame stabilization and stabilization of thermoacoustic instabilities.
+**2022** — We have been granted PRACE HPC access on Piz Daint at CSCS to perform large eddy simulation of plasma-assisted combustion in a sequential combustor, aiming to understand the effect of plasma on flame stabilisation and stabilisation of thermoacoustic instabilities.
 
 ---
 

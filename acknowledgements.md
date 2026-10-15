@@ -1,10 +1,10 @@
 ---
-title: Acknowledgments
+title: Acknowledgements
 nav_order: 11
-permalink: /acknowledgments/
+permalink: /acknowledgements/
 ---
 
-# Acknowledgments
+# Acknowledgements
 
 My research has been supported by the following funding and computing agencies:
 

@@ -12,7 +12,7 @@ PAC has been studied to widen the operating window of a gas turbine sequential c
 
 <p align="center">
 <img src="/assets/images/research/visu_burner_bis.png" alt="" style="width:800px; max-width:100%; height:auto;"><br>
-<em>Figure LES-PAC-SEQCOMB: Geometry of the second stage of the sequential combustor used for experiments and simulations at the CAPS lab., ETH Zürich. A temperature-colored heat release rate (HRR) iso-contour illustrates the production of ignition kernels by the nanosecond repetitively pulsed discharges (NRPDs). More details in this <a href="https://doi.org/10.1016/j.proci.2022.06.016">journal publication</a>.</em>
+<em>Figure LES-PAC-SEQCOMB: Geometry of the second stage of the sequential combustor used for experiments and simulations at the CAPS lab., ETH Zürich. A temperature-coloured heat release rate (HRR) iso-contour illustrates the production of ignition kernels by the nanosecond repetitively pulsed discharges (NRPDs). More details in this <a href="https://doi.org/10.1016/j.proci.2022.06.016">journal publication</a>.</em>
 </p>
 
 <div markdown="0" style="max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 20px;">
