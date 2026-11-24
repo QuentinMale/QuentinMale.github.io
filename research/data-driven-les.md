@@ -16,7 +16,7 @@ The model enables long-duration LES that recover the mean flow and torque, and e
 More details in this [journal publication](https://doi.org/10.1103/nbpv-s32c), also available on [arXiv](https://doi.org/10.48550/arXiv.2607.25048).
 
 <p align="center">
-<img src="/assets/images/research/key_image_FV10346.png" alt="Three-dimensional flow structures in a cylindrical vessel driven by two counter-rotating impellers" style="width:700px; max-width:100%; height:auto;"><br>
+<img src="/assets/images/research/key_image_FV10346.png" alt="Three-dimensional flow structures in a cylindrical vessel driven by two counter-rotating impellers" style="width:350px; max-width:100%; height:auto;"><br>
 <em>Figure VK: Flow structures in a large eddy simulation of the impeller-driven von Kármán flow. More details in this <a href="https://doi.org/10.1103/nbpv-s32c">journal publication</a>.</em>
 </p>
 
