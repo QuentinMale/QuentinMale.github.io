@@ -10,8 +10,8 @@ permalink: /research/
 My research combines physics-based modelling, high-performance computing and machine learning to develop computational methods and investigate multiphysics phenomena in energy and complex flow systems. The sections below group my work by topic.
 
 - [Data-driven modelling for large eddy simulation](/research/data-driven-les/)
-  - [Impeller-driven turbulent flows](/research/data-driven-les/#impeller-driven-turbulent-flows)
-  - [Hydrogen combustion](/research/data-driven-les/#hydrogen-combustion)
+  - [Impeller-driven turbulent flows](/research/data-driven-les/impeller-driven-turbulent-flows/)
+  - [Hydrogen combustion](/research/data-driven-les/hydrogen-combustion/)
 - [Plasma-assisted combustion](/research/pac/)
   - [Thermoacoustic stabilisation](/research/pac/thermoacoustic-stabilisation/)
   - [Combustion enhancement](/research/pac/combustion-enhancement/)

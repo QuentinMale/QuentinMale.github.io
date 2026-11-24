@@ -24,7 +24,10 @@ acknowledgements.md      Acknowledgements page
 
 research/
   index.md              "Research" parent page (top-level nav item)
-  data-driven-les.md     Child page on data-driven modelling for LES
+  data-driven-les.md     Child page on data-driven modelling for LES, has children
+  data-driven-les/
+    impeller-driven-turbulent-flows.md
+    hydrogen-combustion.md
   pac.md                 Child page, itself has children (has_children: true)
   pac/
     thermoacoustic-stabilisation.md   Grandchild page
