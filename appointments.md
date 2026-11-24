@@ -6,11 +6,11 @@ permalink: /appointments/
 
 # Appointments
 
-**2027 onward** - Assistant professor, University of Luxembourg.
+**2027 onward** – Assistant professor, University of Luxembourg.
 
-**2026 onward** - Associate, Harvard University.
+**2026 onward** – Associate, Harvard University.
 
-**2025 - 2026** — Postdoctoral researcher, [CSElab](https://cse-lab.seas.harvard.edu), Harvard University.
+**2025 – 2026** – Postdoctoral researcher, [CSElab](https://cse-lab.seas.harvard.edu), Harvard University.
 
 **2024** — Established researcher, [CAPS](https://caps.ethz.ch) lab., ETH Zürich.
 
